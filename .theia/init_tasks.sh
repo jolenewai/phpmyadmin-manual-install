@@ -21,3 +21,7 @@ echo 'alias python=python3' >> ~/.bashrc
 echo 'alias pip=pip3' >> ~/.bashrc
 echo "Done"
 source ~/.bashrc
+
+# Run the bash file to install phpmyadmin
+chmod u=rwx  ${GITPOD_REPO_ROOT}/install-phpmyadmin.sh
+ ${GITPOD_REPO_ROOT}/install-phpmyadmin
