@@ -1,7 +1,7 @@
 mkdir public
 cd public
 git clone https://github.com/phpmyadmin/phpmyadmin.git
-cd public/phpmyadmin
+cd phpmyadmin
 composer update --no-dev
 yarn install
 cp config.sample.inc.php config.inc.php
