@@ -24,4 +24,4 @@ source ~/.bashrc
 
 # Run the bash file to install phpmyadmin
 chmod u=rwx  ${GITPOD_REPO_ROOT}/install-phpmyadmin.sh
- ${GITPOD_REPO_ROOT}/install-phpmyadmin
+ ${GITPOD_REPO_ROOT}/install-phpmyadmin.sh
